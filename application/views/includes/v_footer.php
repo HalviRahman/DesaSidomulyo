@@ -19,13 +19,15 @@ Footer
         <div class="list-menu">
           <h5 class="text-white ml-3">Surat</h5 class="text-white ml-3">
           <ul class="list-styled">
-            <li><a href="<?= base_url('surat/kelahiran') ?>">Kelahiran</a></li>
-            <li><a href="<?= base_url('surat/kematian') ?>">Kematian</a></li>
-            <li><a href="<?= base_url('surat/tidak_mampu') ?>">Tidak Mampu</a></li>
-            <li><a href="<?= base_url('surat/biodata') ?>">Biodata</a></li>
-            <li><a href="<?= base_url('surat/umum') ?>">Umum</a></li>
-            <li><a href="<?= base_url('surat/domisili') ?>">Domisili</a></li>
-            <li><a href="<?= base_url('surat/riwayat') ?>">Riwayat Pengurusan</a></li>
+            <li class="menu"><a href="<?= base_url() ?>surat/nikah">Nikah</a></li>
+            <li><a href="<?= base_url() ?>surat/pindahnikah">Pindah Nikah</a></li>
+            <li><a href="<?= base_url() ?>surat/kematian">Akta Kematian</a></li>
+            <li><a href="<?= base_url() ?>surat/santunankematian">Santunan Kematian</a></li>
+            <li><a href="<?= base_url() ?>surat/ketUsaha">Keterangan Usaha</a></li>
+            <li><a href="<?= base_url() ?>surat/pindahdatang">Pindah Datang</a></li>
+            <li><a href="<?= base_url() ?>surat/pindahkeluar">Pindah Keluar</a></li>
+            <li><a href="<?= base_url() ?>surat/skck">SKCK</a></li>
+            <li><a href="<?= base_url() ?>surat/pengalihanbpjs">Pengalihan BPJS Mandiri</a></li>
           </ul>
         </div>
       </div>
