@@ -57,12 +57,12 @@
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="feature-block">
-          <a href="<?= base_url("potensi/detail") ?>">
+          <a href="<?= base_url("potensi/profil") ?>">
             <img src="<?= base_url() ?>assets/img/info.png" alt="img" class="img-fluid">
-            <h4>Potensi Desa</h4>
-            <p>Menampilkan profil dan informasi potensi Desa Sidomulyo.</p>
+            <h4>Profil Desa</h4>
+            <p>Menampilkan profil dan informasi Desa Sidomulyo.</p>
           </a>
-          <a href="<?= base_url("potensi/detail") ?>">selengkapnya. . .</a>
+          <a href="<?= base_url("potensi/profil") ?>">selengkapnya. . .</a>
         </div>
       </div>
     </div>

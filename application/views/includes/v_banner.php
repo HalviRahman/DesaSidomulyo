@@ -14,7 +14,7 @@
             <!-- <h2 style="color:white;" class="">Website informasi dan pelayanan Desa Sidomulyo</h2> -->
             <!-- <a href="<?= base_url("akun/masuk") ?>" class="btn-get-started bg-dark scrollto">Get Started</a> -->
           </div>
-          <img class="img-slide" style="width:100vw; height:87vh; opacity:0.7;"
+          <img class="img-slide" style="width:100vw; height:87vh; opacity:0.9;"
             src="<?= base_url() ?>assets/img/bannersidomulyo.jpg" alt="First slide">
         </div>
         <!-- <div class="carousel-item">

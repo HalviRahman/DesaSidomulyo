@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Masuk Admin</title>
 
+  <link href="<?= base_url('assets/img/favicon.png') ?>" rel="icon">
   <style media="screen">
   /* @import url(https://fonts.googleapis.com/css?family=Roboto:300); */
 
@@ -132,9 +133,9 @@ color: #EF3B3A;
           <h2>Selamat Datang, Admin!</h2><br>
           <?php echo form_open_multipart(base_url("admin/akun/masuk"), array('class' => 'form-horizontal')); ?>
           <?php echo $this->session->flashdata('error'); ?>
-          <input value="123456" type="text" placeholder="NIK" name="nik" required />
+          <input value="" type="text" placeholder="NIK" name="nik" required />
           <?= form_error('nik'); ?>
-          <input value="webdesa" type="password" placeholder="Kata Sandi" name="pass" required />
+          <input value="" type="password" placeholder="Kata Sandi" name="pass" required />
           <?= form_error('pass'); ?>
           <button name="masuk">masuk</button>
           <label class="message">Pergi Ke Website <a href="<?= base_url("/") ?>">Desa Sidomulyo</a></label>
