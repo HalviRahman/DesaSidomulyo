@@ -33,7 +33,7 @@
     <div class="row">
       <div class="col-md-12" id="hero" style="height:50px; margin:0px 0 60px 0; padding:0;">
         <h1 id="layanan">Layanan</h1>
-        <h2>Pengurusan surat, aduan masyarakat, dan informasi Desa Sidomulyo.</h2>
+        <h2>Persyaratan surat, aduan masyarakat, dan informasi Desa Sidomulyo.</h2>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="feature-block">
